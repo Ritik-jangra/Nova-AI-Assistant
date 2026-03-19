@@ -16,12 +16,12 @@ from friday.Fspeak import fspeak
 
 # startup internet check
 if is_online():
-    fspeak("Internet connection is active. Jarvis is ready to assist you.")
+    fspeak("Internet connection is active. Nova is ready to assist you.")
 else:
-    fspeak("Internet connection is not active. Limited functionality.")
+    fspeak("Internet connection is not active. Please check your internet connection.")
 
 
-def jarvis():
+def Nova():
     while True:
         if not is_online():
             time.sleep(1)
@@ -149,9 +149,9 @@ def jarvis():
             speak("Scrolling up")
             gui.scroll(500)
 
-        # jarvis ai
+        # Nova ai
         elif text.startswith("Nova"):
-            clean_text = text.replace("jarvis", "").strip()
+            clean_text = text.replace("Nova", "").strip()
             reply = mind(clean_text)
             speak(reply)
 
@@ -161,4 +161,4 @@ def jarvis():
             speak(reply)
 
 if __name__ == "__main__":
-    jarvis()
+    Nova()

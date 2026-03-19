@@ -50,4 +50,4 @@ def fspeak(text):
 # TEST
 if __name__ == "__main__":
     # speak("मेरा नाम प्राची है, और मैं रितिक की सबसे अच्छी दोस्त हूं")
-    fspeak("My name is Prachi, and I am Ritik's best friend.")
+    fspeak("My name is Nova, and I am Ritik's best friend.")

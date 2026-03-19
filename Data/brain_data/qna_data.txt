@@ -1,4 +1,4 @@
-hello:Nova online 😄 bolo Jerry kya haal hai?
+hello:Nova online hai 😄 bolo Jerry kya haal hai?
 hi:Hi hi! Aaj ka plan kya hai Jerry?
 hey:Heyyy Jerry 👋 kya chal raha hai?
 good morning:Good morning Jerry ☀️ aaj kuch naya karte hain
